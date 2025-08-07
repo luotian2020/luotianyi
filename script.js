@@ -1,6 +1,6 @@
 const datasets = [
   { filename: "data1.js", name: "洛天依cosplay服装参考", varName: "jsonData1" },
-  { filename: "data2.js", name: "嘉宾信息 B", varName: "jsonData2" }
+  { filename: "data2.js", name: "洛天依信息企划中", varName: "jsonData2" }
 ];
 
 let currentData = null;
@@ -92,7 +92,7 @@ function setupData(data) {
   document.getElementById("description").textContent = data.struct?.description || "";
 
   createSearchInputs();
-  renderList(data.list.slice(0, 10));
+  renderList(data.list);
 }
 
 function inferFieldTypes(item) {
