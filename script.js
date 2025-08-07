@@ -1,5 +1,5 @@
 const datasets = [
-  { filename: "data1.js", name: "嘉宾信息 A", varName: "jsonData1" },
+  { filename: "data1.js", name: "洛天依cosplay服装参考", varName: "jsonData1" },
   { filename: "data2.js", name: "嘉宾信息 B", varName: "jsonData2" }
 ];
 

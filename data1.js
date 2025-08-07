@@ -5,21 +5,49 @@ window.jsonData1 = {
   },
   typeMap: {
     name: { type: "text", label: "服装名称" },
-    original:{type:"url",label:"来源"},
     picture: { type: "image", label: "图片" }
   },
   list: [
     {
-      name: "小叶子",
-      works: "蔷薇花园",
-      profile: "https://example.com/xiaoyezi",
-      avatar: "https://example.com/xiaoyezi.jpg"
+      name: "雅音宫羽",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/6121faf022e566b5.webp"
     },
     {
-      name: "蓝天",
-      works: "天空之城",
-      profile: "https://example.com/lantian",
-      avatar: "https://example.com/lantian.jpg"
+      name: "V3 公式服",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/a95d0dc5124e391d.webp"
+    },
+       {
+      name: "V4 公式服中",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/a8485036104a166c.webp"
+    },
+       {
+      name: "V4 公式服 日",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/0bd02cf07befc119.webp"
+    },
+      {
+      name: "场刊 花嫁",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/6482d3c3765e25ba.png"
+    }  ,
+     {
+      name: "夏虫",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/1571e92531c74b44.jpg"
+    }  ,
+     {
+      name: "柠檬依",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/88506bf6fcc6f53a.jpg"
+    } ,
+     {
+      name: "V5 公式服",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/1d6d10b307edb05e.png"
+    },
+     {
+      name: "昆曲",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/efa9c99cfa9ecd0e.png"
+    },
+     {
+      name: "忆红莲",
+      picture: "https://s3.bmp.ovh/imgs/2025/08/07/23ea5becc514dc71.png"
     }
+
   ]
 };
